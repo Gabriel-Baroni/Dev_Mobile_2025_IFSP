@@ -16,10 +16,10 @@ void main() => runApp(
           color: Color.fromARGB(99, 60, 139, 230), // Cor de fundo azul claro
         ),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Icon(Icons.access_alarm, color: Colors.red, size: 50),
                 Icon(Icons.access_alarm, color: Colors.green, size: 50),
@@ -54,7 +54,12 @@ void main() => runApp(
                 Text("t3"),
               ],
             ),
-            Image.asset("images/images2.JPG", width: 200, height: 200),
+            Image.asset(
+              "images/images2.JPG",
+              width: 200,
+              height: 200,
+              fit: BoxFit.fill,
+            ),
           ],
         ),
       ),
