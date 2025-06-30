@@ -43,6 +43,8 @@ class _SplashScreenState extends State<SplashScreen> {
               'Seu destino para uma experiência incrível!',
               style: TextStyle(fontSize: 18, color: Colors.white),
             ),
+            Image.asset('images/imagem.png', fit: BoxFit.cover, height: 50),
+            
           ],
         ),
       ),
