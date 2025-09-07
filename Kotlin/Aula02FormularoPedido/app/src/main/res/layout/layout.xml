@@ -27,38 +27,38 @@
             android:id="@+id/radioP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Pequeno" />
 
         <RadioButton
             android:id="@+id/radioM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Médio" />
 
         <RadioButton
             android:id="@+id/radioG"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="Grande" />
     </RadioGroup>
 
     <CheckBox
         android:id="@+id/checkBoxQ"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="Queijo" />
 
     <CheckBox
         android:id="@+id/checkBoxB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="Bacon" />
 
     <CheckBox
         android:id="@+id/checkBoxO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="Ovo" />
 
     <Spinner
         android:id="@+id/spinner"

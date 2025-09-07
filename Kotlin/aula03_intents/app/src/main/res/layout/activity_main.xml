@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome" />
+
+    <Button
+        android:id="@+id/btnGoDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir para Detalhe" />
+
+    <Button
+        android:id="@+id/btnOpenSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir site" />
+
+    <Button
+        android:id="@+id/btnOpenMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir mapa" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartilhar" />
+</LinearLayout>
