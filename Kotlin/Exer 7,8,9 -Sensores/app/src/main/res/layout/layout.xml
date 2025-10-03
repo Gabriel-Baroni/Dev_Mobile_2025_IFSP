@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Acelerômetro" />
+
+    <TextView
+        android:id="@+id/txtX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:" />
+
+    <TextView
+        android:id="@+id/txtY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y:" />
+
+    <TextView
+        android:id="@+id/txtZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giroscópio" />
+
+    <TextView
+        android:id="@+id/textGX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GX:" />
+
+    <TextView
+        android:id="@+id/textGY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GY:" />
+
+    <TextView
+        android:id="@+id/textGZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GZ:" />
+
+</LinearLayout>
